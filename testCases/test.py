@@ -23,7 +23,7 @@ class NroblueTest(unittest.TestCase):
     driver.get(baseURL)
     driver.maximize_window()
 
-    def test_login(self):
+    def test_all(self):
         login = TestLogin(self.driver)
         login.test_login()
         time.sleep(1)
